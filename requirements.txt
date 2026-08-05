@@ -1,0 +1,13 @@
+# Required by AI_Home_Mixologist_qwen_grounded_generation.ipynb
+pandas
+numpy
+torch
+datasets
+sentence-transformers
+faiss-cpu
+transformers
+accelerate
+bitsandbytes
+gradio
+ipywidgets
+jupyter
