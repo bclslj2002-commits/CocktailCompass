@@ -6,7 +6,7 @@ An English-language cocktail assistant implemented in one Jupyter notebook. It r
 
 | File | Purpose |
 | --- | --- |
-| `AI_Home_Mixologist_qwen_grounded_generation.ipynb` | The complete implementation, data preparation, retrieval, grounded generation, evaluation, and interactive demo. |
+| `AI_Home_Mixologist.ipynb` | The complete implementation, data preparation, retrieval, grounded generation, evaluation, and interactive demo. |
 | `requirements.txt` | Python packages needed to reproduce the notebook outside Google Colab. |
 
 There are deliberately no separate Python source files, downloaded datasets, model weights, API keys, or cached indexes in this repository.
