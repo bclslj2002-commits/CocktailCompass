@@ -1,13 +1,11 @@
 # Required by AI_Home_Mixologist_qwen_grounded_generation.ipynb
-pandas
-numpy
-torch
-datasets
-sentence-transformers
-faiss-cpu
-transformers
-accelerate
-bitsandbytes
-gradio
-ipywidgets
-jupyter
+- pandas: 2.2.2
+- numpy: 2.0.2
+- datasets: 4.0.0
+- sentence-transformers: 5.6.0
+- faiss-cpu: 1.15.0
+- transformers: 5.13.1
+- accelerate: 1.14.0
+- bitsandbytes: 0.50.0
+- gradio: 6.20.0
+- ipywidgets: 7.7.1
