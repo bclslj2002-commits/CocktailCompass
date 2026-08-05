@@ -82,7 +82,7 @@ Colab GPU runtime for final model evaluation.
 1. Create a Python 3.12 environment, or open a Kaggle/Colab GPU notebook.
 2. Install `requirements.txt`. For a local CUDA system, use the appropriate
    vendor PyTorch wheel; the tested Windows configuration is CUDA 12.6.
-3. Run `notebooks/cocktail_rag_assistant.ipynb` from the first cell to the last.
+3. Run `notebooks/AI_Home_Mixologist_qwen_grounded_generation.ipynb` from the first cell to the last.
 4. Review the retrieved source evidence, evaluation DataFrames, and the final
    reproducibility assertions.
 
@@ -95,7 +95,7 @@ This ignored directory contains no credentials and must not be committed.
 preserved, non-final teaching/reference notebooks. They contain legacy
 FLAN-T5-style baseline code and are **not** part of the final implementation,
 evaluation, requirements, or submission run path. The only final notebook is
-`notebooks/cocktail_rag_assistant.ipynb`, which uses Qwen as documented above.
+`notebooks/AI_Home_Mixologist_qwen_grounded_generation.ipynb`, which uses Qwen as documented above.
 
 Example questions:
 
