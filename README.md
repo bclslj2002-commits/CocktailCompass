@@ -91,6 +91,3 @@ Run the notebook from a fresh runtime to regenerate these outputs for the hardwa
 - Recipe data can contain duplicates, inconsistent ingredient wording, missing fields, and source noise. Similarity is retrieval evidence, not a verified flavour or cultural claim.
 - The project is for recipe information only; check recipes before preparing a drink and consume alcohol responsibly.
 
-## Good practice
-
-This project uses meaningful commits and stores no private credentials. Before sharing or extending it, review the source dataset's licence and the relevant model licences.
