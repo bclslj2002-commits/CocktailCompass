@@ -15,7 +15,7 @@ There are deliberately no separate Python source files, downloaded datasets, mod
 
 ### Recommended: Google Colab
 
-1. Upload `AI_Home_Mixologist_qwen_grounded_generation.ipynb` to Google Colab.
+1. Upload `AI_Home_Mixologist.ipynb` to Google Colab.
 2. Select a GPU runtime. Around 12 GB VRAM or more is recommended for the optional 4-bit Qwen model.
 3. Run every cell in order, from Section 1 through Section 13.
 
@@ -29,7 +29,7 @@ Use Python 3.10–3.12 and, for Qwen generation, a CUDA-capable GPU.
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-jupyter notebook AI_Home_Mixologist_qwen_grounded_generation.ipynb
+jupyter notebook AI_Home_Mixologist.ipynb
 ```
 
 On a CPU-only machine, the data preparation, embedding, FAISS retrieval, and deterministic evidence display can run, but the optional Qwen generation may be unavailable or impractical. The notebook displays a deterministic grounded fallback in that case.
